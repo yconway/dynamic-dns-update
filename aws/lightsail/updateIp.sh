@@ -1,4 +1,6 @@
 #!/bin/bash
+echo current directory
+pwd
 source ../../config/config.shlib; # load the config library functions
 USERNAME="$(config_get USERNAME)";
 PASSWORD="$(config_get PASSWORD)";
