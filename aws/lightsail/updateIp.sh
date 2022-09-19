@@ -1,5 +1,5 @@
 #!/bin/bash
-source /config/config.shlib; # load the config library functions
+source ../../config/config.shlib; # load the config library functions
 USERNAME="$(config_get USERNAME)";
 PASSWORD="$(config_get PASSWORD)";
 DOMAIN="$(config_get DOMAIN)";
