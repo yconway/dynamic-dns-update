@@ -1,10 +1,5 @@
 #!/bin/bash
-echo current directory
-pwd
-source ./config/config.shlib; # load the config library functions
-USERNAME="$(config_get USERNAME)";
-PASSWORD="$(config_get PASSWORD)";
-DOMAIN="$(config_get DOMAIN)";
+source ./config/dynamic-dns.cfg; # load the config
 
 echo USERNAME $USERNAME
 echo PASSWORD $PASSWORD
